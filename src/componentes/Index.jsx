@@ -1,6 +1,7 @@
 import React,{ useState ,useEffect} from 'react'
-import { Navbar, Container, Offcanvas, Nav, Carousel, Form, FormControl, Button } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Navbar, Container, Offcanvas, Nav, Carousel, Form, FormControl, Button, Card } from 'react-bootstrap';
+import { Link, Router } from 'react-router-dom';
+
 
 
 export default function ControlledCarousel() {
@@ -11,6 +12,8 @@ export default function ControlledCarousel() {
     };
    
     return (
+   
+     
       <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
           <img

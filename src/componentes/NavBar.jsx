@@ -53,7 +53,7 @@ export default function NavBar() {
                         <Nav className="me-auto">
                             
                             <Nav.Link hidden={show}  href="/Index">Inicio</Nav.Link>
-
+                            <Nav.Link style={{color: '#FFF',textDecoration:'none'}} href="/Mapa">Mapa</Nav.Link>
                             <Nav.Link hidden={opcionEmerg} href="/verEmergencias">Ver Alertas</Nav.Link>
                             <Nav.Link hidden={opcionEmergA} href="/verEmergenciasA">Ver Alertas ADM</Nav.Link>
                             <Nav.Link hidden={show} href="/crearEmergencias">Crear Emergencias</Nav.Link>

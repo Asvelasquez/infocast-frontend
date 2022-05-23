@@ -7,6 +7,7 @@ import VerEmergencias from './componentes/VerEmergencias';
 import CrearEmergencias from './componentes/CrearEmergencias';
 import Index from './componentes/Index';
 import VerEmergenciasA from './componentes/VerEmergenciasA';
+import Mapa from './componentes/Mapa';
 import Em from './componentes/Em';
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path='/CrearEmergencias' exact component={CrearEmergencias}/>
       <Route path='/Index' exact component={Index}/>
       <Route path='/VerEmergenciasA' exact component={VerEmergenciasA}/>
+      <Route path='/Mapa' exact component={Mapa}/>
       
       <Route path='/Em' exact component={Em}/>
       
